@@ -7,5 +7,7 @@ export default {
   'Delete':'删除',
   'items-left':'项剩余',
   'Sure to delete?':'确定删除?',
-  'What-needs-to-be-done':'填写需要做的事件',
+  'What-needs-to-be-done':'填写需要做的事件', 
+  'Sure to clear completed event?':'确定删除已完成事件?',
+  'No completed events':'暂无已完成事件',
 };
