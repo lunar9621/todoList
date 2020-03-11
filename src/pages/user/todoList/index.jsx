@@ -73,9 +73,9 @@ class TodoList extends Component {
   }
 
   handleSave = row => {
-    const newData = [...this.state.storeAll];
-    const index = newData.findIndex(item => row.key === item.key);
-    const item = newData[index];
+    let newData = JSON.parse(JSON.stringify(this.state.storeAll));
+    let index = newData.findIndex(item => row.index=== item.index);
+    let item = newData[index];
     newData.splice(index, 1, {
       ...item,
       ...row,
